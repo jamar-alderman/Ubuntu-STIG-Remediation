@@ -1,0 +1,13 @@
+# Raw OpenSCAP reports require explicit review before publication.
+*.html
+*.xml
+
+# Keep private material and local environment files out of routine commits.
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.pfx
+id_rsa
+id_ed25519
